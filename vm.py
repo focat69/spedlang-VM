@@ -5,7 +5,7 @@ logging.basicConfig(level=logging.INFO)
 class VMError(Exception): pass
 def clear(): os.system('cls' if os.name == 'nt' else 'clear')
 
-TYPES = {
+TYPES = { # yea i dont ever use this, pointless
     1: 'int',
     2: 'float',
     3: 'string',
